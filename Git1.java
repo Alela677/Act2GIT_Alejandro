@@ -8,7 +8,7 @@ public class Git1 {
 	int [] array = new int [20];
 	
 	for (int i = 0; i < array.length; i++) {
-		array[i] = (int)(Math.random()*10);
+		array[i] = (int)(Math.random()*20);
 		System.out.print(array[i]+ ",");
 	}
 			
